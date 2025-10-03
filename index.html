@@ -196,6 +196,80 @@
             padding-bottom: 20px;
             margin-right: 0px;
         }
+        .knowledge{
+            display: flex;
+            gap: 100px;
+            
+        }
+        .knowledge h1{
+            padding-top: 50px;
+            margin-left: 50px;
+            font-size: 40px;
+        }
+        .knowledge p{
+            padding-top: 30px;
+            margin-left: 50px;
+            font-weight: bold;
+        }
+        .knowledge button{
+            background-color: rgba(247, 194, 103, 0.811);
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-top: 10px;
+            margin-left: 50px;
+            margin-top: 20px;
+            font-weight: bold;
+
+        }
+        .knowledge img{
+            width: 700px;
+        }
+        .reading{
+            display: flex;
+            gap: 80px;
+            padding-right: 30px;
+            padding-top: 100px;
+            
+        }
+        .reading .texts{
+            background-color: rgba(84, 165, 240, 0.879);
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .texts p{
+            font-size: 20px;
+            font-weight: 100;
+        }
+        .lists {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding-top: 20px;
+            color: blue;
+            grid-template-rows: 40px;
+            
+            
+        }
+        .all{
+            margin-left: 50px;
+        }
+        .headings h2{
+            padding-bottom: 20px;
+            font-size: 40px;
+        }
+        .headings p{
+            padding-bottom: 20px;
+            font-weight: bold;
+            color: #1d2a36;
+            font-size: 14px;
+        }
+        .headings ul{
+            color: blue;
+        }
+        
 
   </style>
 </head>
@@ -267,37 +341,40 @@
         </div>
     </div>
     </div>
-    <div>
-        <div class="knowledge">
+    <div class="knowledge">
             <div>
-                <h1><strong>Knowlidge in action</strong></h1>
+                <h1><strong>Knowledge in action</strong></h1>
                 <p>Marking our 120th anniversary as a University.</p>
                 <button>Celebrating 120</button>
+                
             </div>   
             <div>
                 <img src="images/02_01_037_120-years_Landing-page-hero_1216x640_RL.jpeg" alt="">
             </div>
-        </div>
     </div>
-    <div>
-        <div>
-            <h2><strong>Who we are</strong></h2>
-            <p>We offer a space for self-discovery, delivering world-leading <br> research and progressive teaching from our single-site <br> campus in the heart of South East London.</p>
-            <li>About Goldsmiths</li>
-            <li>Courses</li>
-            <li>Events</li>
-            <li>Research</li>
-            <li>Local community</li>
-            <li>Services for <br> business</li>
-            <li>Goldsmiths Centre <br> for Contemporarybr
-                 Art
-            </li>
+    <div class="reading">
+        <div class="all">
+            <div class="headings">
+                <h2><strong>Who we are</strong></h2>
+                <p>We offer a space for self-discovery, delivering world-leading <br> research and progressive teaching from our single-site <br> campus in the heart of South East London.</p>
+                <ul>About Goldsmiths</ul> 
+            </div>
+            <div class="lists">
+                <ul>Courses</ul>
+                <ul>Events</ul>
+                <ul>Research</ul>
+                <ul>Local <br>community</ul>
+                <ul>Services for <br> business</ul>
+                <ul>Goldsmiths Centre <br> for Contemporary <br> Art</ul>
+            </div>
         </div>
         <div>
-            <img src="" alt="">
-            <h3>80% of our undergraduate students move on to <br> highly-skilled work after their studies.
-            </h3>
-            <p>Graduate Outcomes Survey</p>
+            <img src="/images/who-we-are-two-students-studying.jpeg" alt="">
+            <div class="texts">
+                <h3>80% of our undergraduate students move on to <br> highly-skilled work after their studies.
+                </h3>
+                <p>Graduate Outcomes Survey</p>
+            </div>
         </div>
     </div>
     <div>

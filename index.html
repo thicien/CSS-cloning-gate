@@ -269,8 +269,67 @@
         .headings ul{
             color: blue;
         }
-        
+        .library{
+            padding-top: 30px;
+            display: flex;
+            margin-left: 50px;
+        }
+        .blocks{
+           display: block;
+           max-width: ;
+        }
+        .library {
+           display: grid;
+           grid-template-columns: 2fr 1fr; 
+           gap: 20px;
+           padding: 20px;
+        }
 
+        .blocks {
+          display: grid;
+          grid-template-rows: 1fr 1fr; 
+          gap: 20px;
+        }
+
+        .block {
+          position: relative;
+          overflow: hidden;
+          border-radius: 3px;
+        }
+
+        .block img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+
+    
+        .text-box {
+          margin-bottom: 0px;
+          margin-left: 0px;
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          background: white;
+          padding: 12px 15px;
+          max-width: 45%;
+          border-radius: 4px;
+        }
+
+        .text-box h3 {
+          margin: 0 0 6px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #000;
+        }
+
+        .text-box p {
+          margin: 0;
+          font-size: 14px;
+          color: #333;
+          line-height: 1.4;
+        }
   </style>
 </head>
 <body>
@@ -379,34 +438,31 @@
         </div>
     </div>
     <div class="library">
-        <div>
-            <div>
-                <img src="/images/Hotel_files/walking-past-ben-pimlott-800.jpg" alt="">
-            </div>
-            <div>
-                <h3><strong>Virtual tour</strong></h3>
-                <p>Explore the Goldsmiths campus <br> via 360-degree images and ‘Day <br> in the Life’ experiences.</p>
-            </div>
+    
+    <div class="blocks">
+      <div class="block">
+        <img src="/images/Hotel_files/walking-past-ben-pimlott-800.jpg" alt="">
+        <div class="text-box">
+          <h3>Virtual tour</h3>
+          <p>Explore the Goldsmiths campus via 360-degree images and ‘Day in the Life’ experiences.</p>
         </div>
-        <div>
-            <div>
-                <img src="/images/Library_files/bookshop-home-770x325.jpg" alt="">
-            </div>
-            <div>
-                <h3><strong>Local area</strong></h3>
-                <p>Get to know buzzing South East <br> London through our area guides.</p>
-            </div>
+      </div>
+      <div class="block">
+        <img src="/images/Library_files/bookshop-home-770x325.jpg" alt="">
+        <div class="text-box">
+          <h3>Local area</h3>
+          <p>Get to know buzzing South East London through our area guides.</p>
         </div>
-        <div>
-            <div>
-                <img src="/images/Laptop_files/accommodation-810.jpg" alt="">
-            </div>
-            <div>
-                <h3><strong>Accommodation</strong></h3>
-                <p>Learn more about the range of accommodation choices available.</p>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="block">
+      <img src="/images/Laptop_files/accommodation-810.jpg" alt="">
+      <div class="text-box">
+        <h3>Accommodation</h3>
+        <p>Learn more about the range of accommodation choices available.</p>
+      </div>
+    </div>
+  </div>
   </div>
 
 </body>

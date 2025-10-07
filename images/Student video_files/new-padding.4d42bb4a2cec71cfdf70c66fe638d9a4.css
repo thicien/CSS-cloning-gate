@@ -1,0 +1,137 @@
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,fieldset,hr,.media,.island{
+    margin-bottom:1.5rem;
+    margin-top:0;
+}
+
+h2,h3,h4,h5,h6 {
+    margin-bottom:0.5rem;
+}
+
+h2{
+    margin-top:3rem;
+}
+
+
+article.page-full-width div.section, article.programme div.section {
+    margin-bottom:1.5rem;
+    margin-top:0;
+}
+
+
+#maincontent div.section, .section.text-slice, .section.navigating-top-section {
+    margin-bottom:2.5rem;
+    margin-top:0;
+    padding-bottom:0;
+}
+
+#maincontent div.section {
+    margin-bottom:2.5rem;
+}
+
+
+.highlight-blue, .highlight {
+    margin-bottom: 1.5rem;
+    margin-top:0;
+}
+
+h2 + .highlight-blue {
+  margin-top:1.5rem;
+}
+
+
+.box-heading {
+    margin-bottom: 0;
+}
+
+.expand-container {
+    margin-bottom: 1.5rem;
+}
+
+.expand-container:is(:has(> .table-wrapper)) {
+  margin-bottom: 0 !important;
+}
+
+.prog-primary-col .tab {
+    margin-bottom: 1.5rem;
+}
+
+
+#maincontent .programme div.section.section-sticky {
+    margin-top: -6rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#maincontent div.section.section--no-padding {
+    margin-bottom: 0;
+}
+
+#maincontent div.section:is(:has(> .quote-wrapper)) {
+  margin-bottom: 1rem !important;
+}
+
+.staffInfoBox, .staff-item-static {
+  margin-bottom: 2.5rem;
+}
+
+#maincontent.landing .section, #maincontent.study .section {
+  margin-bottom:5rem;
+}
+
+.map-info__details h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.section-fullwidth-pinched .section__heading {
+    margin-top:0;
+}
+
+.indented-content .expand-container {
+    margin-bottom: 0;
+}
+
+.prog-secondary-col .box ul,
+.secondary-content .box ul {
+    margin-bottom: 1.25rem;
+}
+
+.secondary-content .box ul:last-child {
+    margin-bottom: 0;
+}
+
+.section--show-hide {
+    padding-bottom: 0;
+    margin-bottom: 1.875rem;
+}
+
+
+
+
+@media screen and (max-width: 1155px) {
+
+    .programme .section.section-sticky {
+        margin-top: -4rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1155px) {
+    .programme .section.section-sticky {
+        margin-top: -5rem !important;
+    }
+
+    .pullover {
+        margin-top: -110px !important;
+    }
+}
+
+
+
+
+
+
